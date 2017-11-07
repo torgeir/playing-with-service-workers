@@ -3,7 +3,7 @@
 
 const version = "v2";
 
-const files = ["/", "/index.js"];
+const files = ["./index.html", "./index.js"];
 
 // install the web page on first load
 self.addEventListener("install", e =>
