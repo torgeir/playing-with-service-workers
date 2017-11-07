@@ -17,7 +17,7 @@ const { serviceWorker } = navigator;
   // when new workers take control
   serviceWorker.addEventListener("controllerchange", updateVersion);
 
-  const reg = await serviceWorker.register("/sw.js");
+  const reg = await serviceWorker.register("sw.js");
   if (reg.active) {
     updateVersion();
   }
