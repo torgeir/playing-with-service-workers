@@ -10,3 +10,5 @@ A repo for playing with service workers
 - communication
 - fetching offline content
 - fetching online content
+
+[Run the example.](https://torgeir.github.io/playing-with-service-workers)
