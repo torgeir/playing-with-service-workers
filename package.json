@@ -1,0 +1,17 @@
+{
+    "name": "testing-service-worker",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "dependencies": {
+        "koa": "^2.3.0",
+        "koa-static": "^4.0.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "author": "@torgeir",
+    "license": "mit"
+}
